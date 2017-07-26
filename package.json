@@ -1,0 +1,18 @@
+{
+  "name": "ambidextrous",
+  "version": "0.0.1",
+  "description": "a left or right side mobile menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mobile",
+    "menu",
+    "off-canvas",
+    "hamburger",
+    "slide-out"
+  ],
+  "author": "zacharykane",
+  "license": "MIT"
+}

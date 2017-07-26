@@ -1,0 +1,38 @@
+<!doctype>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../src/ambidextrous.css" />
+</head>
+<body>
+    <div id="console"></div>
+    <div id="root"></div>
+    <script src="../src/ambidextrous.js"></script>
+    <script>
+        const links = [
+            {
+                href: '/path/to/thing',
+                label: 'Link A'
+            },
+            {
+                href: '/path/to/thing',
+                label: 'Link B'
+            },
+            {
+                href: '/path/to/thing',
+                label: 'Link C'
+            },
+            {
+                href: '/path/to/thing',
+                label: 'Link D'
+            },
+            {
+                href: '/path/to/thing',
+                label: 'Link E'
+            }
+        ];
+        const menuRoot = document.querySelector('#root');
+        menuRoot.appendChild(Ambidextrous(links, menuRoot));
+    </script>
+</body>
+</html>
